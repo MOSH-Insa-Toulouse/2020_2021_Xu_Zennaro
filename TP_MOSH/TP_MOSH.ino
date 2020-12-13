@@ -69,7 +69,7 @@ void loop() // run over and over
 
   delay(2000);
   
-  /*if (digitalRead(button1)){
+  if (digitalRead(button1)){
     Serial.print("Last received message: ");
     Serial.println(myLora.getRx());
     delay(200);
@@ -79,23 +79,24 @@ void loop() // run over and over
         digitalWrite(bip,LOW);
         delayMicroseconds(2272);
       }
-  }*/
- 
-    /*if (ack){
+  }
+
+  if (ack){
+    digitalWrite(led1,HIGH);
+    delay(1000);
+    digitalWrite(led1,LOW);
+  }else{
+    for (int i=0;i<10;i++){
       digitalWrite(led1,HIGH);
-      delay(1000);
+      delay(100);
       digitalWrite(led1,LOW);
-    }else{
-      for (int i=0;i<10;i++){
-        digitalWrite(led1,HIGH);
-        delay(100);
-        digitalWrite(led1,LOW);
-        delay(100);
-      }
-    }*/
+      delay(100);
+    }
+  }
     
-    //eco_mode_board();
-    //delay(1000);
+  eco_mode_board();
+  delay(1000);
+
 }
 
 
@@ -146,15 +147,6 @@ void initialize_radio()
 
   join_result = myLora.initABP(devAddr, appSKey, nwkSKey);
   
-  /*
-   * OTAA: initOTAA(String AppEUI, String AppKey);
-   * If you are using OTAA, paste the example code from the TTN console here:
-   */
-  /*const char *appEui = "70B3D57ED0038A86";
-  const char *appKey = "1795FBC6B74C33861383A38AC9683B6F";
-
-  join_result = myLora.initOTAA(appEui, appKey);*/
-
 
   while(!join_result)
   {
