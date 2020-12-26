@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ShieldSensorComponents)(type Legacy)(uri ${KIPRJMOD}/ShieldSensorComponents.lib)(options "")(descr ""))
+)
