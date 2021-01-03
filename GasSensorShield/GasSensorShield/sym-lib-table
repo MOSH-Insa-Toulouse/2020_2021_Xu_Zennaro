@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name ShieldSensorComponents)(type Legacy)(uri ${KIPRJMOD}/ShieldSensorComponents.lib)(options "")(descr ""))
+  (lib (name GasSensorShield-rescue)(type Legacy)(uri ${KIPRJMOD}/GasSensorShield-rescue.lib)(options "")(descr ""))
+  (lib (name RN2483_breakout)(type Legacy)(uri ${KIPRJMOD}/RN2483_breakout.lib)(options "")(descr ""))
+  (lib (name GasSensorShield-cache)(type Legacy)(uri ${KIPRJMOD}/GasSensorShield-cache.lib)(options "")(descr ""))
+  (lib (name eec)(type Legacy)(uri "${KIPRJMOD}/IC_Linear Technology_LTC1050CN/eec.lib")(options "")(descr ""))
 )

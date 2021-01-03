@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name Mes_empreintes)(type KiCad)(uri ${KIPRJMOD}/Mes_empreintes.pretty)(options "")(descr ""))
+  (lib (name eec)(type KiCad)(uri "${KIPRJMOD}/IC_Linear Technology_LTC1050CN/eec.pretty")(options "")(descr ""))
 )
