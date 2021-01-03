@@ -34,7 +34,7 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 * Arduino Uno
 * Conn_01x03:Pin
 
-#### Electrical diagram
+## Electrical diagram
 
 ![Schematic](Images/eesch.png)
 
@@ -44,4 +44,4 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 
 ## Routage
 
-![Vue 3D](Images/3d_view.png)
+![Vue 3D](Images/3D_view.png)
