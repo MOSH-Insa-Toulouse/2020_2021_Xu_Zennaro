@@ -30,9 +30,10 @@ Open source EDA / electronics CAD software for Windows, macOS and Linux.
 
 * LTC1050:
 * Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-* Capa
+* Capacitor
 * Arduino Uno
 * Conn_01x03:Pin
+* RN2483
 
 ## Electrical diagram
 
